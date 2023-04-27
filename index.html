@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy BirthDay</title>
+    
+    <style type="text/css">
+      * {
+        background: #fff;
+      }
+
+      #loveHeart {
+        background: transparent;
+        background: url("smile.gif") no-repeat center;
+      }
+      #copyright {
+        font-family: "Montserrat", sans-serif;
+      }
+      #copyright a {
+        text-decoration: none;
+      }
+      #copyright a:hover {
+        text-decoration: none;
+        color: royalblue;
+      }
+      #hbd_song {
+        display: none;
+      }
+      #disc {
+        color: lightgray;
+        font-weight: bold;
+        font-size: 13px;
+      }
+    </style>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/birthday.js"></script>
+    <script type="text/javascript" src="js/hbd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <div class="section" style="padding-top: 10px;">
+      <br />
+      <br />
+      <br />
+      <div class="columns">
+        <div id="code" class="column is-6 is-offset-2">
+					<span class="comments">/**</span><br />
+					<span class="space" /><span class="comments">* Today, the 4th day of May, is your Birthday.</span><br />
+					<span class="space" /><span class="comments">* So I tried to make something to celebrate this special day.</span><br />
+					<span class="space" /><span class="comments">*/</span><br />
+					Boy u = <span class="keyword">new</span> Boy(<span class="string">"Babbu"</span>);<br />
+					<span class="comments">// May 4th, when the bell rang, your age increased </span><br />
+					Date currentTime = <span class="keyword">new</span> Date(); <br />
+					SimpleDateFormat formatter = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);<br />
+					String dateString = formatter.format(currentTime);<br />
+					if( dateString.equals(<span class="string">"2020-05-04 00:00:00"</span>) ) {</br>
+						u.age ++;</br>
+					}</br>
+					<span class="comments">// My best wishes will be with you always.</span><br />
+					<span class="keyword">new</span> Thread() { <br />
+					@Override </br>
+					<span class="comments">// Forever and ever. I wish</span><br />
+					while(true) {</br>
+					<span class="comments">// luckiness,</span><br />
+					u.fortune ++;</br>
+					<span class="comments">// happiness,</span><br />
+					u.happiness ++;</br>
+					<span class="comments">// and everything you wish can be achieved.</span><br />
+					}.start()</br>
+					<span class="comments">// The last thing I wanna say:</span><br />
+					System.out.println(<span class="string">"Happy Birthday!!"</span>);<br />
+          if (nothing) {<br />
+            <span class="string">"I am with you, Always and Forever."</span>;<br />
+          };
+				</div>
+				<div id="loveHeart" class="is-4 column">
+					<canvas id="garden" style="display:none"></canvas>
+					
+				</div>
+      </div>
+      <br />
+			<hr />
+			<div class="columns">
+				<div class="column is-12" id="copyright">
+					<center>
+						<p>Made with love by <a href="https://github.com/JPy-UwU" target="_blank">JP</a></p>
+					</center>
+				</div>
+			</div>
+    </div>
+  </body>
+</html>
